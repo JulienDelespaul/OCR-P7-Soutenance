@@ -1,0 +1,30 @@
+/* brutal button style */
+
+.brutal-btn {
+	background-color: white;
+	border: 2px solid #fd2d01;
+	padding: 2px 4px;
+	font-weight: bold;
+	position: relative;
+	color: #fd2d01;
+}
+
+.brutal-btn:after {
+	content: "";
+	position: absolute;
+	background-color: #fd2d01;
+	top: 8px;
+	left: 8px;
+	right: -8px;
+	bottom: -8px;
+	z-index: -1;
+}
+
+.brutal-btn:hover {
+	border-color: #ffd7d7;
+	color: #ffd7d7;
+}
+
+.brutal-btn:hover:after {
+	background-color: #ffd7d7;
+}
